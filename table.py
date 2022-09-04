@@ -14,7 +14,7 @@ def table_prc(file_path = "data/keppel-corporation-limited-annual-report-2018.pd
         try:
             indx = int(ind)
             answer = tables[indx-1].df
-            answer.to_csv('answer.csv')
+            answer.to_csv('output/answer.csv')
             return answer
         except:
             print(f"Run function again and select from this option {num}")
