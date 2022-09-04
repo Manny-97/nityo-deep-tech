@@ -27,3 +27,12 @@ Then run the image-to-text.py as below:
  python image-to-text.py
 ```
 
+To extract text, run:
+```
+python processor.py
+```
+
+To extract table, run:
+```
+python table.py
+```
