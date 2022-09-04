@@ -1,38 +1,6 @@
-# NLP-image-to-text
+# ASSIGNMENT
 
-Code to extract text from images
+Each assignement is in its owm unique folder
 
-```
-pip install -r requirements.txt
-```
+Kindly adhere to the given instructions
 
-
-If you encounter file not found error as below:
-```
-FileNotFoundError: [Errno 2] No such file or directory: 'tesseract'
-```
-
-Run the following command
-```
-brew install tesseract
-brew install ghostscript
-```
-- Windows
-```
-Download ghostscript
-```
-
-Then run the image-to-text.py as below:
-```
- python image-to-text.py
-```
-
-To extract text, run:
-```
-python processor.py
-```
-
-To extract table, run:
-```
-python table.py
-```
