@@ -1,7 +1,6 @@
 from PyPDF2 import PdfFileReader
 from fpdf import FPDF
 from pathlib import Path
-import re
 
 
 def get_string(img_path="../data/keppel-corporation-limited-annual-report-2018.pdf", page=12):

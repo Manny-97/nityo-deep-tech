@@ -3,7 +3,7 @@
 Code to extract text from images
 Run the following command to change directory
 ```
-cd table-extract
+cd text-extract
 ```
 Run to create virtual environment
 ```
@@ -32,7 +32,8 @@ Run the following command
 ```
 brew install ghostscript
 ```
+
 Run the following command to execute the script
 ```
-python table.py
+python processor.py
 ```
